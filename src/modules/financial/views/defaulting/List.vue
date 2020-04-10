@@ -20,9 +20,9 @@
               <table class="table table-striped table-hover mb-5">
                 <thead>
                   <tr>
-                    <th @click="orderBy('name')">Nome do Cliente</th>
-                    <th @click="orderBy('price')">Valor</th>
-                    <th @click="orderBy('dueDate')">Desde</th>
+                    <th width="60%" @click="orderBy('name')">Nome do Cliente</th>
+                    <th width="20%" @click="orderBy('price')">Valor</th>
+                    <th width="20%" @click="orderBy('dueDate')">Desde</th>
                   </tr>
                 </thead>
                 <tbody>

@@ -1,7 +1,6 @@
   <template>
   <div id="wrapper">
     <div id="content-wrapper" class="d-flex flex-column">
-      <notifications group="notification"  position="bottom right" :width="400" :speed="800" />
       <div id="content">
         <Navbar />
         <div class="container">
