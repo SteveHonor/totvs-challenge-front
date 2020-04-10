@@ -1,8 +1,31 @@
 # Totvs Challenge Front
 
 # Vue JS
+#### Technologies
 
-## Project setup
+ - Vuejs
+ - Vuex
+ - Vuex Persisted State
+ - Axios
+ - Moment
+ - Bootstrap
+ - Node-sass
+ - NProgress
+
+## Project Setup Docker
+
+```
+docker-compose build
+docker-compose run api npm install
+```
+
+### run
+```
+$ docker-compose up
+```
+
+## Project Setup terminal
+
 ```
 npm install
 ```
@@ -11,11 +34,3 @@ npm install
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
