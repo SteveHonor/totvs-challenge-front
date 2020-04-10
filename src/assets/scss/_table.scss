@@ -1,0 +1,28 @@
+.table {
+  &.table-hover {
+    & tbody {
+      td {
+        vertical-align: middle !important;
+      }
+      tr {
+        &.active {
+          background-color: $gray-100;
+          color: $primary;
+          font-weight: bold;
+        }
+        &:hover {
+          color: $primary;
+          background-color: $yellow-100;
+        }
+      }
+    }
+  }
+  thead {
+    th {
+      border-bottom: 1px;
+      border-top: 0;
+      color: $secondary;
+      cursor: pointer;
+    }
+  }
+}

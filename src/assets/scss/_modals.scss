@@ -1,0 +1,38 @@
+.modal {
+  color: $primary;
+
+  .modal-header {
+    background-color: $gray-200;
+  }
+  .modal-footer {
+    background-color: $gray-100;
+  }
+  .modal-dialog {
+    .modal-loading {
+      .spinner-grow {
+        display: none;
+      }
+
+      &.active {
+        width: 100%;
+        height: 100%;
+        background: #ffffff;
+        position: absolute;
+        z-index: 99999;
+        opacity: 0.8;
+        pointer-events: fill;
+
+        .spinner-grow {
+          display: block;
+          position: absolute;
+          color: $secondary;
+          border-radius: 50% !important;
+          width: 30px;
+          height: 30px;
+          left: 50%;
+          top: 45%;
+        }
+      }
+    }
+  }
+}
