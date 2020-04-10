@@ -1,0 +1,49 @@
+{
+  "name": "totvs-challenge",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap-select": "^1.13.12",
+    "bootstrap-vue-treeview": "^1.0.8",
+    "camelcase-keys": "^6.2.1",
+    "core-js": "^3.6.4",
+    "currency.js": "^1.2.2",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "nodejs": "0.0.0",
+    "snakecase-keys": "^3.1.2",
+    "underscore": "^1.9.2",
+    "v-money": "^0.8.1",
+    "vue": "^2.6.11",
+    "vue-axios": "^2.1.5",
+    "vue-filter": "^0.2.5",
+    "vue-moment": "^4.1.0",
+    "vue-notification": "^1.3.20",
+    "vue-router": "^3.1.5",
+    "vue-the-mask": "^0.11.1",
+    "vue2-datepicker": "^3.4.1",
+    "vue2-filters": "^0.10.0",
+    "vuex": "^3.1.2",
+    "vuex-persistedstate": "^2.7.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-router": "~4.2.0",
+    "@vue/cli-plugin-vuex": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.12.0",
+    "nprogress": "^0.2.0",
+    "popper.js": "^1.16.1",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
